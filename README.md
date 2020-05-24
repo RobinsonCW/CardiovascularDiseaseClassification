@@ -1,6 +1,6 @@
 # cardiovascular-disease-classification
 
-Created by [Chance Robinson](https://github.com/RobinsonCW)
+Created by [Chance Robinson](https://github.com/RobinsonCW), [Dan Crouthamel](https://github.com/bSharpCyclist), [David Coppiellie](https://github.com/dcoppiellie) and [Shane Weinstock](https://github.com/ShaneWeinstock)
 
 ## Purpose
 Prediction of prresence or absence of cardiovascular disease
@@ -8,7 +8,7 @@ Prediction of prresence or absence of cardiovascular disease
 
 ## Analysis Files
 
-* [Cardiovascular Disease Analysis (Jupyter Notebook)](https://google.com): A paper covering the analysis. 
+* [Cardiovascular Disease Analysis (Jupyter Notebook)](https://github.com/RobinsonCW/CardiovascularDiseaseClassification/blob/master/src/CardiovascularDiseaseClassificationAnalysis.ipynb): A paper covering the analysis. 
 
 
 ## Codebook
