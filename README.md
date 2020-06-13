@@ -27,5 +27,6 @@ The dataset [readme](https://github.com/RobinsonCW/CardiovascularDiseaseClassifi
     ├── data                                # Raw data for EDA and analysis questions
     ├── src                                 # Primary analysis files
     |    ├── exploratory_data_analysis      # Jupyter Notebook files for EDA
+         ├── objectives                     # Jupyter Notebook files for primary analysis questions
     ├── CodeBook.md                         # Session information regarding the environment
     ├── LICENSE                             # All code and analysis is licensed under the MIT license.
