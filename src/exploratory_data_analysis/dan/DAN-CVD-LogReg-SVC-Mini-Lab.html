@@ -13091,7 +13091,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">RUN_GRID_SEARCH_CV</span> <span class="o">=</span> <span class="kc">False</span>
@@ -13111,7 +13111,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13136,7 +13136,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../../data/cardio_train.csv&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;;&#39;</span><span class="p">)</span>
@@ -13162,7 +13162,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># %%time</span>
@@ -13204,7 +13204,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Full Model</span>
@@ -13234,7 +13234,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">RobustScaler</span>
@@ -13287,7 +13287,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span>\
@@ -13388,7 +13388,7 @@ ROC AUC: 0.77 (+/- 0.00) [SVC]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span>\
@@ -13490,7 +13490,7 @@ ROC AUC: 0.77 (+/- 0.00) [SVC]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Although not pretty, it&#39;s quick and easy to read</span>
@@ -13525,30 +13525,30 @@ ROC AUC: 0.77 (+/- 0.00) [SVC]
 Model :  logistic_regression
 Best Score :  0.7692737629549344
 Best Params :  {&#39;logistic__C&#39;: 0.01, &#39;logistic__penalty&#39;: &#39;l2&#39;}
-Mean Fit Time:  0.12293681928089686
-Mean Score Time:  0.02354644877570016
-Cross Validation Time :  1.2726397514343262
+Mean Fit Time:  0.10025324140276227
+Mean Score Time:  0.017529862267630442
+Cross Validation Time :  1.1486239433288574
 
 Model :  sgd
 Best Score :  0.770305923768533
 Best Params :  {&#39;sgd__alpha&#39;: 0.1, &#39;sgd__class_weight&#39;: &#39;balanced&#39;, &#39;sgd__loss&#39;: &#39;log&#39;, &#39;sgd__penalty&#39;: &#39;l2&#39;}
-Mean Fit Time:  0.3042753547430038
-Mean Score Time:  0.05135035812854767
-Cross Validation Time :  2.90891432762146
+Mean Fit Time:  0.1773788094520569
+Mean Score Time:  0.03456398844718933
+Cross Validation Time :  4.805426836013794
 
 Model :  linear_svc
 Best Score :  0.7692188002423259
 Best Params :  {&#39;linear_svc__C&#39;: 1, &#39;linear_svc__loss&#39;: &#39;hinge&#39;, &#39;linear_svc__penalty&#39;: &#39;l2&#39;}
-Mean Fit Time:  1.258601073707853
-Mean Score Time:  0.02149665355682373
-Cross Validation Time :  9.651350259780884
+Mean Fit Time:  0.9884085357189178
+Mean Score Time:  0.016601690224238803
+Cross Validation Time :  16.742520570755005
 
 Model :  svc
 Best Score :  0.7758775085860634
 Best Params :  {&#39;svc__C&#39;: 10, &#39;svc__gamma&#39;: 0.001, &#39;svc__kernel&#39;: &#39;rbf&#39;}
-Mean Fit Time:  80.89608198404312
-Mean Score Time:  22.31822657585144
-Cross Validation Time :  194.9384536743164
+Mean Fit Time:  38.473659098148346
+Mean Score Time:  13.08263474702835
+Cross Validation Time :  281.62983226776123
 </pre>
 </div>
 </div>
@@ -13577,7 +13577,7 @@ Cross Validation Time :  194.9384536743164
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span>\
@@ -13619,7 +13619,7 @@ Cross Validation Time :  194.9384536743164
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># https://stackoverflow.com/questions/57528350/can-you-consistently-keep-track-of-column-labels-using-sklearns-transformer-api/57534118#57534118</span>
@@ -13647,7 +13647,7 @@ Cross Validation Time :  194.9384536743164
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">weightNames</span> <span class="o">=</span> <span class="n">get_transformer_feature_names</span><span class="p">(</span><span class="n">pipe1</span><span class="p">[</span><span class="s1">&#39;preprocessor&#39;</span><span class="p">])</span>
@@ -13665,13 +13665,13 @@ Cross Validation Time :  194.9384536743164
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x25ad7f42ba8&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x228b789c7b8&gt;</pre>
 </div>
 
 </div>
@@ -13712,7 +13712,7 @@ z
 " style="fill:#ffffff;"/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#pa5eac35fbf)" d="M 36.541587 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 36.541587 192.850909 
 L 49.41851 192.850909 
 L 49.41851 73.826718 
 L 36.541587 73.826718 
@@ -13720,7 +13720,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#pa5eac35fbf)" d="M 62.295433 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 62.295433 192.850909 
 L 75.172356 192.850909 
 L 75.172356 75.65118 
 L 62.295433 75.65118 
@@ -13728,7 +13728,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#pa5eac35fbf)" d="M 88.049279 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 88.049279 192.850909 
 L 100.926202 192.850909 
 L 100.926202 17.083636 
 L 88.049279 17.083636 
@@ -13736,7 +13736,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_6">
-    <path clip-path="url(#pa5eac35fbf)" d="M 113.803125 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 113.803125 192.850909 
 L 126.680048 192.850909 
 L 126.680048 92.460534 
 L 113.803125 92.460534 
@@ -13744,7 +13744,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_7">
-    <path clip-path="url(#pa5eac35fbf)" d="M 139.556971 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 139.556971 192.850909 
 L 152.433894 192.850909 
 L 152.433894 210.574638 
 L 139.556971 210.574638 
@@ -13752,7 +13752,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#pa5eac35fbf)" d="M 165.310817 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 165.310817 192.850909 
 L 178.18774 192.850909 
 L 178.18774 195.918713 
 L 165.310817 195.918713 
@@ -13760,7 +13760,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_9">
-    <path clip-path="url(#pa5eac35fbf)" d="M 191.064663 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 191.064663 192.850909 
 L 203.941587 192.850909 
 L 203.941587 189.783104 
 L 191.064663 189.783104 
@@ -13768,7 +13768,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_10">
-    <path clip-path="url(#pa5eac35fbf)" d="M 216.81851 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 216.81851 192.850909 
 L 229.695433 192.850909 
 L 229.695433 180.935584 
 L 216.81851 180.935584 
@@ -13776,7 +13776,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_11">
-    <path clip-path="url(#pa5eac35fbf)" d="M 242.572356 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 242.572356 192.850909 
 L 255.449279 192.850909 
 L 255.449279 204.766233 
 L 242.572356 204.766233 
@@ -13784,7 +13784,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_12">
-    <path clip-path="url(#pa5eac35fbf)" d="M 268.326202 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 268.326202 192.850909 
 L 281.203125 192.850909 
 L 281.203125 172.45699 
 L 268.326202 172.45699 
@@ -13792,7 +13792,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_13">
-    <path clip-path="url(#pa5eac35fbf)" d="M 294.080048 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 294.080048 192.850909 
 L 306.956971 192.850909 
 L 306.956971 213.244827 
 L 294.080048 213.244827 
@@ -13800,7 +13800,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_14">
-    <path clip-path="url(#pa5eac35fbf)" d="M 319.833894 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 319.833894 192.850909 
 L 332.710817 192.850909 
 L 332.710817 170.945454 
 L 319.833894 170.945454 
@@ -13808,7 +13808,7 @@ z
 " style="fill:#1f77b4;"/>
    </g>
    <g id="patch_15">
-    <path clip-path="url(#pa5eac35fbf)" d="M 345.58774 192.850909 
+    <path clip-path="url(#p291ee8a5dc)" d="M 345.58774 192.850909 
 L 358.464663 192.850909 
 L 358.464663 214.756364 
 L 345.58774 214.756364 
@@ -13821,10 +13821,10 @@ z
       <defs>
        <path d="M 0 0 
 L 0 3.5 
-" id="m0d6edaaf14" style="stroke:#000000;stroke-width:0.8;"/>
+" id="mfd8f01f0fe" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="42.980048" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="42.980048" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_1">
@@ -13930,7 +13930,7 @@ z
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="68.733894" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="68.733894" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_2">
@@ -14089,7 +14089,7 @@ z
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="94.48774" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="94.48774" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_3">
@@ -14156,7 +14156,7 @@ z
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="120.241587" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="120.241587" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_4">
@@ -14242,7 +14242,7 @@ z
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="145.995433" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="145.995433" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_5">
@@ -14281,7 +14281,7 @@ z
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="171.749279" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="171.749279" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_6">
@@ -14383,7 +14383,7 @@ z
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="197.503125" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="197.503125" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_7">
@@ -14420,7 +14420,7 @@ z
     <g id="xtick_8">
      <g id="line2d_8">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="223.256971" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="223.256971" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_8">
@@ -14456,7 +14456,7 @@ z
     <g id="xtick_9">
      <g id="line2d_9">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="249.010817" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="249.010817" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_9">
@@ -14477,7 +14477,7 @@ z
     <g id="xtick_10">
      <g id="line2d_10">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="274.764663" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="274.764663" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_10">
@@ -14497,7 +14497,7 @@ z
     <g id="xtick_11">
      <g id="line2d_11">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="300.51851" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="300.51851" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_11">
@@ -14517,7 +14517,7 @@ z
     <g id="xtick_12">
      <g id="line2d_12">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="326.272356" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="326.272356" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_12">
@@ -14550,7 +14550,7 @@ z
     <g id="xtick_13">
      <g id="line2d_13">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="352.026202" xlink:href="#m0d6edaaf14" y="224.64"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="352.026202" xlink:href="#mfd8f01f0fe" y="224.64"/>
       </g>
      </g>
      <g id="text_13">
@@ -14576,10 +14576,10 @@ z
       <defs>
        <path d="M 0 0 
 L -3.5 0 
-" id="m182291df84" style="stroke:#000000;stroke-width:0.8;"/>
+" id="m1fe43a55e1" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m182291df84" y="192.850909"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m1fe43a55e1" y="192.850909"/>
       </g>
      </g>
      <g id="text_14">
@@ -14594,7 +14594,7 @@ L -3.5 0
     <g id="ytick_2">
      <g id="line2d_15">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m182291df84" y="147.884869"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m1fe43a55e1" y="147.884869"/>
       </g>
      </g>
      <g id="text_15">
@@ -14635,7 +14635,7 @@ z
     <g id="ytick_3">
      <g id="line2d_16">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m182291df84" y="102.91883"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m1fe43a55e1" y="102.91883"/>
       </g>
      </g>
      <g id="text_16">
@@ -14669,7 +14669,7 @@ z
     <g id="ytick_4">
      <g id="line2d_17">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m182291df84" y="57.952791"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m1fe43a55e1" y="57.952791"/>
       </g>
      </g>
      <g id="text_17">
@@ -14716,7 +14716,7 @@ z
     <g id="ytick_5">
      <g id="line2d_18">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m182291df84" y="12.986752"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="30.103125" xlink:href="#m1fe43a55e1" y="12.986752"/>
       </g>
      </g>
      <g id="text_18">
@@ -14793,7 +14793,7 @@ L 364.903125 7.2
   </g>
  </g>
  <defs>
-  <clipPath id="pa5eac35fbf">
+  <clipPath id="p291ee8a5dc">
    <rect height="217.44" width="334.8" x="30.103125" y="7.2"/>
   </clipPath>
  </defs>
@@ -14818,7 +14818,7 @@ L 364.903125 7.2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># New Feature Model</span>
@@ -14862,7 +14862,7 @@ L 364.903125 7.2
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">fit</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -14945,8 +14945,8 @@ L 34.240625 22.318125
 z
 " style="fill:#ffffff;"/>
    </g>
-   <g clip-path="url(#pe9542d90fd)">
-    <image height="272" id="imagee96385a4d8" transform="scale(1 -1)translate(0 -272)" width="272" x="34.240625" xlink:href="data:image/png;base64,
+   <g clip-path="url(#pbddd9ff994)">
+    <image height="272" id="image51f01e9b8c" transform="scale(1 -1)translate(0 -272)" width="272" x="34.240625" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAARAAAAEQCAYAAAB4CisVAAAABHNCSVQICAgIfAhkiAAAA3RJREFUeJzt1jENAkEARFEWFbjABC0dIrB4LnBAQYKNQ8E1v9kleU/BVD8zbuOxn+DA9n3NnsDCzrMHAP9LQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBMQIBsvD+XffYI1vW83mdPYGEeCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJAJCJD9APHHCeM0aYLhAAAAAElFTkSuQmCC" y="-22.118125"/>
    </g>
    <g id="matplotlib.axis_1">
@@ -14955,10 +14955,10 @@ iVBORw0KGgoAAAANSUhEUgAAARAAAAEQCAYAAAB4CisVAAAABHNCSVQICAgIfAhkiAAAA3RJREFUeJzt
       <defs>
        <path d="M 0 0 
 L 0 3.5 
-" id="ma82c14abbb" style="stroke:#000000;stroke-width:0.8;"/>
+" id="m1b83e49bd2" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="102.190625" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="102.190625" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_1">
@@ -14994,7 +14994,7 @@ z
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="238.090625" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="238.090625" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_2">
@@ -15249,10 +15249,10 @@ z
       <defs>
        <path d="M 0 0 
 L -3.5 0 
-" id="md7ff4a0435" style="stroke:#000000;stroke-width:0.8;"/>
+" id="m2d48972720" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="34.240625" xlink:href="#md7ff4a0435" y="90.268125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="34.240625" xlink:href="#m2d48972720" y="90.268125"/>
       </g>
      </g>
      <g id="text_4">
@@ -15265,7 +15265,7 @@ L -3.5 0
     <g id="ytick_2">
      <g id="line2d_4">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="34.240625" xlink:href="#md7ff4a0435" y="226.168125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="34.240625" xlink:href="#m2d48972720" y="226.168125"/>
       </g>
      </g>
      <g id="text_5">
@@ -15672,7 +15672,7 @@ z
     <g id="xtick_3">
      <g id="line2d_5">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="532.007567" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="532.007567" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_12">
@@ -15687,7 +15687,7 @@ z
     <g id="xtick_4">
      <g id="line2d_6">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="624.238972" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="624.238972" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_13">
@@ -15702,7 +15702,7 @@ z
     <g id="xtick_5">
      <g id="line2d_7">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="716.470377" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="716.470377" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_14">
@@ -15736,7 +15736,7 @@ z
     <g id="xtick_6">
      <g id="line2d_8">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="808.701782" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="808.701782" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_15">
@@ -15783,7 +15783,7 @@ z
     <g id="xtick_7">
      <g id="line2d_9">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="900.933187" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="900.933187" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_16">
@@ -15798,7 +15798,7 @@ z
     <g id="xtick_8">
      <g id="line2d_10">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="993.164592" xlink:href="#ma82c14abbb" y="294.118125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="993.164592" xlink:href="#m1b83e49bd2" y="294.118125"/>
       </g>
      </g>
      <g id="text_17">
@@ -15889,7 +15889,7 @@ z
     <g id="ytick_3">
      <g id="line2d_11">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="281.76358"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="281.76358"/>
       </g>
      </g>
      <g id="text_19">
@@ -15904,7 +15904,7 @@ z
     <g id="ytick_4">
      <g id="line2d_12">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="232.345398"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="232.345398"/>
       </g>
      </g>
      <g id="text_20">
@@ -15919,7 +15919,7 @@ z
     <g id="ytick_5">
      <g id="line2d_13">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="182.927216"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="182.927216"/>
       </g>
      </g>
      <g id="text_21">
@@ -15934,7 +15934,7 @@ z
     <g id="ytick_6">
      <g id="line2d_14">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="133.509034"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="133.509034"/>
       </g>
      </g>
      <g id="text_22">
@@ -15949,7 +15949,7 @@ z
     <g id="ytick_7">
      <g id="line2d_15">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="84.090852"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="84.090852"/>
       </g>
      </g>
      <g id="text_23">
@@ -15964,7 +15964,7 @@ z
     <g id="ytick_8">
      <g id="line2d_16">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#md7ff4a0435" y="34.67267"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="508.949716" xlink:href="#m2d48972720" y="34.67267"/>
       </g>
      </g>
      <g id="text_24">
@@ -16001,7 +16001,7 @@ z
     </g>
    </g>
    <g id="line2d_17">
-    <path clip-path="url(#p8257172625)" d="M 532.007567 281.76358 
+    <path clip-path="url(#p1a925738cf)" d="M 532.007567 281.76358 
 L 532.073437 281.021777 
 L 532.205178 280.880481 
 L 532.205178 280.42127 
@@ -16526,7 +16526,7 @@ z
   </g>
   <g id="axes_3">
    <g id="patch_13">
-    <path clip-path="url(#pc8fcf68ec5)" d="M 331.404261 294.118125 
+    <path clip-path="url(#pe23056d44d)" d="M 331.404261 294.118125 
 L 331.404261 293.056406 
 L 331.404261 23.379844 
 L 331.404261 22.318125 
@@ -16537,7 +16537,7 @@ L 344.994261 294.118125
 z
 " style="fill:#ffffff;stroke:#ffffff;stroke-linejoin:miter;stroke-width:0.01;"/>
    </g>
-   <image height="271" id="image8c0ce6d6bc" transform="scale(1 -1)translate(0 -271)" width="14" x="331" xlink:href="data:image/png;base64,
+   <image height="271" id="image55f0c8cd9f" transform="scale(1 -1)translate(0 -271)" width="14" x="331" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAA4AAAEPCAYAAAByY/XAAAAABHNCSVQICAgIfAhkiAAAAXZJREFUaIHtm8sNwzAMQ2Uno3WG7j9J0wmSwyNKgbVzJyjxYzdAOl7zfRV4zjEHwdVZYzKgn7E4IwOyOavqHJPuCEc9q4ERAkdMAKLsaNjRPypTlRc5KXI5Pl58VISLsmMFceiOSpEp0O8jwymjNojjZsSq+vvoT47dDl5kYVQKpPejf1R/rfaOj4wQKBzIlBEChRs5yI7N+BPGoGvODcwJgHICQOD28YmR4RYRZyfn9lmiyDsA90/US1mMqkk+1mC3xw7Aj4BmO7KuAChOh48M2FDkFXyE751ZkSu/qiswMmBDkbE4uB1BAYCEkqpuO2bDqP+/44TnqvAtWZA4OYzUx45Rg4BU1ZwdeZGjVP24GXN2PBp2dNtxBI3qL3L57fCrShlpcjgjLrI95B2MMVmlAVCK7G+H+9IRAuCOnHCxmiMnqGqPHD9zcoosnKv2U65hVP+PQISTskoZ+ajw6zVhVMwIgcKO7s/CBXHgP/W4qvT/j3TUL7WjjR5hEDXdAAAAAElFTkSuQmCC" y="-22"/>
    <g id="matplotlib.axis_5"/>
    <g id="matplotlib.axis_6">
@@ -16546,10 +16546,10 @@ iVBORw0KGgoAAAANSUhEUgAAAA4AAAEPCAYAAAByY/XAAAAABHNCSVQICAgIfAhkiAAAAXZJREFUaIHt
       <defs>
        <path d="M 0 0 
 L 3.5 0 
-" id="m8fd4f059b4" style="stroke:#000000;stroke-width:0.8;"/>
+" id="m93b9d82c94" style="stroke:#000000;stroke-width:0.8;"/>
       </defs>
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="282.848803"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="282.848803"/>
       </g>
      </g>
      <g id="text_28">
@@ -16565,7 +16565,7 @@ L 3.5 0
     <g id="ytick_10">
      <g id="line2d_21">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="251.691134"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="251.691134"/>
       </g>
      </g>
      <g id="text_29">
@@ -16607,7 +16607,7 @@ z
     <g id="ytick_11">
      <g id="line2d_22">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="220.533464"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="220.533464"/>
       </g>
      </g>
      <g id="text_30">
@@ -16623,7 +16623,7 @@ z
     <g id="ytick_12">
      <g id="line2d_23">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="189.375795"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="189.375795"/>
       </g>
      </g>
      <g id="text_31">
@@ -16639,7 +16639,7 @@ z
     <g id="ytick_13">
      <g id="line2d_24">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="158.218125"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="158.218125"/>
       </g>
      </g>
      <g id="text_32">
@@ -16655,7 +16655,7 @@ z
     <g id="ytick_14">
      <g id="line2d_25">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="127.060455"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="127.060455"/>
       </g>
      </g>
      <g id="text_33">
@@ -16671,7 +16671,7 @@ z
     <g id="ytick_15">
      <g id="line2d_26">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="95.902786"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="95.902786"/>
       </g>
      </g>
      <g id="text_34">
@@ -16687,7 +16687,7 @@ z
     <g id="ytick_16">
      <g id="line2d_27">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="64.745116"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="64.745116"/>
       </g>
      </g>
      <g id="text_35">
@@ -16703,7 +16703,7 @@ z
     <g id="ytick_17">
      <g id="line2d_28">
       <g>
-       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m8fd4f059b4" y="33.587447"/>
+       <use style="stroke:#000000;stroke-width:0.8;" x="344.994261" xlink:href="#m93b9d82c94" y="33.587447"/>
       </g>
      </g>
      <g id="text_36">
@@ -16732,13 +16732,13 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe9542d90fd">
+  <clipPath id="pbddd9ff994">
    <rect height="271.8" width="271.8" x="34.240625" y="22.318125"/>
   </clipPath>
-  <clipPath id="p8257172625">
+  <clipPath id="p1a925738cf">
    <rect height="271.8" width="507.272727" x="508.949716" y="22.318125"/>
   </clipPath>
-  <clipPath id="pc8fcf68ec5">
+  <clipPath id="pe23056d44d">
    <rect height="271.8" width="13.59" x="331.404261" y="22.318125"/>
   </clipPath>
  </defs>
@@ -16770,7 +16770,7 @@ z
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span>\
@@ -16818,7 +16818,7 @@ z
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">svm</span><span class="o">.</span><span class="n">support_vectors_</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
