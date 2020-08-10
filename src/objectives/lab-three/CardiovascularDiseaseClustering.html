@@ -13628,10 +13628,10 @@ Generate report structure: 100%|████████████████
 
  
  
-<div id="a6d723a8-6d3a-4cc9-9f94-8856233f2c47"></div>
+<div id="9051a7fb-15f0-4c95-a761-3627934ad1c0"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#a6d723a8-6d3a-4cc9-9f94-8856233f2c47');
+var element = $('#9051a7fb-15f0-4c95-a761-3627934ad1c0');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "e55f26d6ca4a4c7e9f343a541dad5bb6", "version_major": 2, "version_minor": 0}
@@ -14169,7 +14169,8 @@ Wall time: 2.04 s
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The silhouette score however paints a different picture, and would indicate that we can still get an improved score by increasing the number of clusters.  It is also important to reiterate that our main objective here is to utilize the new feature created by combining the continuous <code>ap_hi</code> and <code>ap_lo</code> parameters.  Because of this, the elbow and silhouette plots may be misleading and brute force grid search techniques may be more appropriate to the task at hand.</p>
+<p>The silhouette score however paints a different picture, and would indicate that we can still get an improved score by increasing the number of clusters.  It is also important to reiterate that our main objective here is to utilize the new feature created by combining the continuous <code>ap_hi</code> and <code>ap_lo</code> parameters and applying that to our classification problem.</p>
+<p>Because of that, the elbow and silhouette plots may be misleading and brute force grid search techniques may be more appropriate to the task at hand.</p>
 
 </div>
 </div>
@@ -14233,6 +14234,14 @@ Wall time: 5.05 s
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We attempted many combinations of <code>n_clusters</code> but for the sake of processing time they have been excluded from the code.  The best parameter fits have been included in this and subsequent models.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
